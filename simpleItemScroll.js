@@ -11,6 +11,12 @@ $.fn.simpleItemScroll = function(options){
 
 	return this.each(function(){
 		var element = $(this);
+		
+		if(settings.effect == 'opacity'){
+			element.css({ opacity: 0 });
+		}else if(settings.effect = 'show'){
+			element.hide();
+		}
 
 		$(window).scroll(function(){
 			element.each(function(){
