@@ -4,10 +4,10 @@ jQuery plugin used for showing items when scrolling down a page
 
 ###How to use
 
-Include Simple Select
+Include Simple Item Scroll
 
 ```html
-<script src="js/simpleItemSelect.min.js"></script>
+<script src="js/simpleItemScroll.min.js"></script>
 ```
 
 ###Create your items
