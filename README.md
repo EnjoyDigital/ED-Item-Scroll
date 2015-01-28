@@ -1,13 +1,13 @@
-Simple Item Scroll
+ED Item Scroll
 =========
 jQuery plugin used for showing items when scrolling down a page
 
 ###How to use
 
-Include Simple Item Scroll
+Include ED Item Scroll
 
 ```html
-<script src="js/simpleItemScroll.min.js"></script>
+<script src="js/edItemScroll.min.js"></script>
 ```
 
 ###Create your items
@@ -24,7 +24,7 @@ Include Simple Item Scroll
 ```html
 <script>
 $(function(){
-	$('.container .item').simpleItemScroll();
+	$('.container .item').edItemScroll();
 });
 </script>
 ```
