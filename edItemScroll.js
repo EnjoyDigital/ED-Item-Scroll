@@ -1,7 +1,7 @@
 /**
  * Allows you to show items when they are in the viewport (timeline etc...)
  */
-$.fn.simpleItemScroll = function(options){
+$.fn.edItemScroll = function(options){
 	'use strict';
 	var settings = $.extend({
 		'effect': 'opacity',
